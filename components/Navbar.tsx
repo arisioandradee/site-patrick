@@ -19,10 +19,11 @@ const Navbar: React.FC = () => {
             <a href="#bio" className="text-sm font-black uppercase tracking-widest text-slate-600 hover:text-primary transition-colors">Sobre</a>
             <a href="#preview" className="text-sm font-black uppercase tracking-widest text-slate-600 hover:text-primary transition-colors">Ebook</a>
             <a
-              href="#form"
+              href="/assets/pdf/ebook-inside-sales.pdf"
+              download
               className="bg-primary text-white px-8 py-3 rounded-2xl text-sm font-black uppercase tracking-widest hover:bg-primary-dark transition-all shadow-lg shadow-primary/20"
             >
-              Garantir E-book
+              Baixar o PDF
             </a>
           </div>
 
@@ -44,10 +45,11 @@ const Navbar: React.FC = () => {
             <a onClick={() => setIsOpen(false)} href="#preview" className="text-sm font-black uppercase tracking-widest text-slate-600">Ebook</a>
             <a
               onClick={() => setIsOpen(false)}
-              href="#form"
+              href="/assets/pdf/ebook-inside-sales.pdf"
+              download
               className="bg-primary text-white px-8 py-4 rounded-2xl text-sm font-black uppercase tracking-widest text-center"
             >
-              Garantir E-book
+              Baixar o PDF
             </a>
           </div>
         )}
