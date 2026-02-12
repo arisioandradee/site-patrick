@@ -20,11 +20,10 @@ const Hero: React.FC = () => {
 
           <div className="flex flex-col sm:flex-row items-center gap-6">
             <a
-              href="/assets/pdf/ebook-inside-sales.pdf"
-              download
+              href="#form"
               className="group relative w-full sm:w-auto overflow-hidden bg-primary text-white px-10 py-5 rounded-2xl text-xl font-black transition-all hover:bg-primary-dark hover:shadow-[0_20px_40px_-10px_rgba(17,115,212,0.5)] active:scale-95"
             >
-              <span className="relative z-10">Baixar o PDF</span>
+              <span className="relative z-10">Garantir E-book</span>
               <div className="absolute inset-0 bg-white/10 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-700 ease-in-out"></div>
             </a>
           </div>
